@@ -18,10 +18,10 @@ There are the steps we made in order to have the datasets we will need for the a
 
 There are the preprocessing steps we did:  
 * We dropped some of the features that we considered duplicates of other information in the dataset due to the merging, or irrelevant fpr the aim of our analysis. The columns we dropped were: 'Freebase_movie_ID', 'primaryTitle', 'runtimeMinutes', and 'startingYear'.  
-* We dropped the 'endYear' feature since it contained 99% of null values.  
+* We dropped the 'endYear' feature since 99% of rows were null values.  
 * In order to have a sensible indicator about the ratings we decided to only consider movies with a minimum vote count (for example 20) and make the analysis more credible, additionally, this will not affect our data size drastically.  
-* We checked to have unique entries in our dataset, indeed when the 'wiki_movie_ID' was present more than once we kept only the one with higher 'numVotes'.  
-* We standardizes the 'numVotes', 'revenues', and 'runtime'.  
+* We checked to have unique entries in our dataset, such that when the 'wiki_movie_ID' was present more than once we kept only the one with highest 'numVotes'.  
+* We standardized the 'numVotes', 'revenues', and 'runtime' columns.  
 
 ## Targets and Features
 The outcome of the previous steps are the following entries in the datasets. 
