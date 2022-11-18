@@ -32,26 +32,28 @@ The countries in which the movie was produces. It's a list of the coutries per e
 The genres to which the movie has been categorized to. It's a list of genres per each movie, listed in order of relevance.
 
 #### Year
-The year of production of the movie.
+The year of production of the movie. It's provided as a string of day, month and year but we will include only the year as an integer.
 
 #### titleType
 The categorization of the movie. Some examples: movie, tvmovie, short, tvepisode, etc.
 
 #### isAdult
-True if the movide was categorized for containing 18+ material. 
+True if the movide was categorized for containing 18+ material. It's a binary variable.
 
 #### Actor's score 
-We will assign to each of the actors a score according to the prizes they won in their acting career. The scoring will be given according to this order of significance:
-* Oscars winned
-* Golden Globe
+We will assign to each of the actors a score according to the prizes they won in their acting career. The scoring will be given according to this order of significance and will be summed per actor:
+* Oscars winned score 10
+* Golden Globe score 9
 * Palme d'Or
-*
+* 
 
 #### Actor age in the movie
 Included in the CMU dataset there is the age of the actor when filming the movie.
 
 #### Plot Summary
-A summary of thhe plot included in wikipedia per actor. In order to analyse this we will adopt the Standford CoreNLP processed summaries provided by the CMU Movie Summary Corpus in the supplements. In this way we will be able to detect which kind of content the movies contains.
+A summary of the plot included in wikipedia per movie. In order to analyse this we will adopt the Standford CoreNLP processed summaries provided by the CMU Movie Summary Corpus in the supplements. In this way we will be able to detect which kind of content the movies contains and how this impacts the success.
+
+
 
 
 
