@@ -23,54 +23,31 @@ There are the preprocessing steps we did:
 * We checked to have unique entries in our dataset, indeed when the 'wiki_movie_ID' was present more than once we kept only the one with higher 'numVotes'.  
 * We standardizes the 'numVotes', 'revenues', and 'runtime'.  
 
-### Success metrics
+## Targets and Features
 The outcome of the previous steps are the following entries in the datasets. 
+### Success metrics
+* **Revenues**: Revenues per movie in US dollars.
+* **Average ratings**: The average ratings are recorded in a scale of [0,10].
 
-#### Revenues
-Revenues per movie in US dollars.
-
-#### Average ratings
-The average ratings are recorded in a scale of [0,10].
-
-### Feature analysis
-The features we will include in our analysis are:
-
-#### Runtime
-The runtime in minutes of the movie. It's a floating point number.
-
-#### Languages
-The languages in which the movie was broadcasted. It's a list of languages per each movie.
-
-#### Countries
-The countries in which the movie was produces. It's a list of the coutries per each movie.
-
-#### Genres
-The genres to which the movie has been categorized to. It's a list of genres per each movie, listed in order of relevance.
-
-#### Year
-The year of production of the movie. It's provided as a string of day, month and year but we will include only the year as an integer.
-
-#### titleType
-The categorization of the movie. Some examples: movie, tvmovie, short, tvepisode, etc.
-
-#### isAdult
-True if the film was categorized for containing 18+ material. It's a binary variable.
-
-#### Actor's score 
-We will assign to each of the actors a score according to the prizes they won in their acting career. The scoring will be given according to this order of significance and will be summed per actor:
-* Oscars winned score 10
-* Golden Globe score 9
-* Palme d'Or
-* 
-
-#### Actor age in the movie
-Included in the CMU dataset there is the age of the actor when filming the movie.
-
-#### Plot Summary
-A summary of the plot included in wikipedia per movie. In order to analyse this we will adopt the Standford CoreNLP processed summaries provided by the CMU Movie Summary Corpus in the supplements. In this way we will be able to detect which kind of content the movies contains and how this impacts the success.
+### Features
+* **Runtime**: The runtime in minutes of the movie. It's a floating point number.
+* **Languages**: The languages in which the movie was broadcasted. It's a list of languages per each movie.
+* **Countries**: The countries in which the movie was produces. It's a list of the coutries per each movie.
+* **Genres**: The genres to which the movie has been categorized to. It's a list of genres per each movie, listed in order of relevance.
+* **Year**: The year of production of the movie. It's provided as a string of day, month and year but we will include only the year as an integer.
+* **titleType**: The categorization of the movie. Some examples: movie, tvmovie, short, tvepisode, etc.
+* **isAdult**: True if the film was categorized for containing 18+ material. It's a binary variable.
+* **Actor's score**: We will assign to each of the actors a score according to the prizes they won in their acting career. The scoring will be given according to this order of significance and will be summed per actor:
+  * Oscars winned score 10
+  * Golden Globe score 9
+  * Palme d'Or
+  * 
+* **Actor age in the movie**: Included in the CMU dataset there is the age of the actor when filming the movie.
+* **Plot Summary**: A summary of the plot included in wikipedia per movie. In order to analyse this we will adopt the Standford CoreNLP processed summaries provided by the CMU Movie Summary Corpus in the supplements. In this way we will be able to detect which kind of content the movies contains and how this impacts the success.
 
 ## Future analysis
-We will conduct the two analysis separately.
+We will conduct the analysis for the average ratings and revenues separately. 
+
 
 
 
