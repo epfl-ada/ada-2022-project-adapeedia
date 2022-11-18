@@ -57,7 +57,9 @@ Lastly, we plotted some dynamic plots for the best genre and country per each ye
 ## Future Steps
 In the next Milestone we will find the most suitable model in order to predict which are the characteristics which mostly impact the revenues and the ratings. This analysis will be done separately, and then combined through a sensible discussion about the results.
 
-
+### Organization
+We will divide into two groups and work each on either the ratings analysis and the revenue analysis.
+We plan to have a first method proposal working by Monday December 5, and from that start working on the optimization of this. We plan to have weekly checkups between our internal groups.
 
 
 
