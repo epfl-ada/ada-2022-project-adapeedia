@@ -51,7 +51,7 @@ Furthermore, we plotted the top 20 languages, countries and genres according to 
 Lastly, we plotted some dynamic plots for the best genre and country per each year. We did this plots for both the revenues and ratings analysis in order to capture a trend which depended on the year.
 
 ## Future Steps
-In the next Milestone we will find the most suitable model in order to predict which are the characteristics which mostly impact the revenues and the ratings. This analysis will be done separately, and the. combined through a sensible discussion about the results.
+In the next Milestone we will find the most suitable model in order to predict which are the characteristics which mostly impact the revenues and the ratings. This analysis will be done separately, and then combined through a sensible discussion about the results.
 
 
 
