@@ -1,4 +1,8 @@
 # ada-2022-project-adapeedia
+
+## Running the notebook
+As the data exceeded Github's size limit constraints, we have uploaded a .zip of our data [here](https://drive.google.com/file/d/1JnCBDjjLFgyH-aWAudfuxixdQzEAczms/view?usp=sharing). After downloading this zip file and copying it to the directory containing this repository, you should uncompress it. Following this, you should have a `MovieSummaries` directory at the same level as `Project.ipynb`.
+
 ## What makes a movie successful?
 
 ### Abstract
