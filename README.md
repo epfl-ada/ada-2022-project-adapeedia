@@ -9,10 +9,10 @@ As the data exceeded Github's size limit constraints, we have uploaded a .zip of
 ## What makes a movie successful?
 
 ### Abstract
-Designing a successful movie is a hard task for all producers. Many logistic decisions should be made as there are numerous factors to consider: the runtime of the movie, the country of filmimg, the actors to choose, the language spoken, and many others. As movie productions have high budgets, such decisions can not be made by "trial and error". Fortunately, with the huge movie corpuses that are available nowadays, it is possible to explore the success of different combinations of these features and analyze the effect of each feature individually. And in this project, we aim at exploring these relations. In order to address this problem, we decided to quantify success according to the average rating and the profit that it gained. The goal will be to sensitively analyze and predict the best choice of movie logistics that will guide producers in their future movie productions.  
+Designing a successful movie is a hard task for all producers. Many logistic decisions should be made as there are numerous factors to consider: the runtime of the movie, the country of filming, the actors to choose, the language spoken, and many others. As movie productions have high budgets, such decisions can not be made by "trial and error". Fortunately, with the huge movie corpuses that are available nowadays, it is possible to explore the success of different combinations of these features and analyze the effect of each feature individually. And in this project, we aim at exploring these relations. In order to address this problem, we decided to quantify success according to the average rating and the profit that it gained. The goal will be to sensitively analyze and predict the best choice of movie logistics that will guide producers in their future movie productions.  
 
 ### Research Questions
-* How do we define the success of a movie movie? 
+* How do we define the success of a movie ? 
 * Are we able to predict the success of a movie given some variables?
 * Which of the variables are important for predicting the success of a movie? 
 
@@ -25,7 +25,8 @@ Designing a successful movie is a hard task for all producers. Many logistic dec
 * We checked to have unique entries in our dataset, such that when the 'wiki_movie_ID' was present more than once we kept only the one with highest 'numVotes'.  
 * We dropped the values where the runtime was null.
 * We dropped movies with budget or numVotes equals 0
-* We checked for duplicates of the moxies with the wiki_movie_ID but there were no duplicates.
+* We checked for duplicates of the movies with the wiki_movie_ID but there were no duplicates.
+* We keep only the principal genres (well known genres) for a meaningful analysis. 
 
 ## Targets and Features
 The outcome of the previous steps are the following entries in the datasets. 
@@ -58,7 +59,7 @@ $${success = {Stand(revenue) + Stand( \log(numVotes) * averageRating ) \over 2}}
 In order to analyse the distribution and be more aware of how the data looks like, we plotted the features histrograms. We were able to understand that some metrics are normally distributed (as the average ratings) and some are highly skewed (as the number of votes) and therefore require a log transformation. Additionally, we plotted the top 20 languages, countries and genres and also some dynamic plots for the best genre and country per each year. Regression plots were also added to visualize the relation among features. Lastly, we displayed word clouds for each genre through a Latent Dirichlet Allocation after preprocessing the plot summaries (stemming, stopword removal, lemmatization).
 
 ### Organization
-* Camille: 
+* Camille: analysis about months, actors, producers, summary (LDA and is_kill), multiple linear regression. 
 * Hadi: pre-processing, metric formulation, ReadMe
 * Silvia:
 * Pau: Website (Data Story), some plotting, minor other code changes
