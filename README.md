@@ -67,7 +67,7 @@ In order to analyse the distribution and be more aware of how the data looks lik
 ### Organization
 * Camille: analysis about months, actors, producers, summary (LDA and is_kill), multiple linear regression, some plotting. 
 * Hadi: pre-processing, metric formulation, ReadMe
-* Silvia:
+* Silvia: analysis of languages, countries and genres, improved the multiple linear regression, final part of the data story. 
 * Pau: Website (Data Story), some plotting, minor other code changes
 
 
