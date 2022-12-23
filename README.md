@@ -12,9 +12,9 @@ As the data exceeded Github's size limit constraints, we have uploaded a .zip of
 Designing a successful movie is a hard task for all producers. Many logistic decisions should be made as there are numerous factors to consider: the runtime of the movie, the country of filmimg, the actors to choose, the language spoken, and many others. As movie productions have high budgets, such decisions can not be made by "trial and error". Fortunately, with the huge movie corpuses that are available nowadays, it is possible to explore the success of different combinations of these features and analyze the effect of each feature individually. And in this project, we aim at exploring these relations. In order to address this problem, we decided to quantify success according to the average rating and the profit that it gained. The goal will be to sensitively analyze and predict the best choice of movie logistics that will guide producers in their future movie productions.  
 
 ### Research Questions
-*How do we define the success of a movie movie? 
-*Are we able to predict the success of a movie given some variables?
-*Which of the variables are important for predicting the success of a movie? 
+* How do we define the success of a movie movie? 
+* Are we able to predict the success of a movie given some variables?
+* Which of the variables are important for predicting the success of a movie? 
 
 ## Analysis
 
@@ -47,7 +47,7 @@ To define a consistent metric of success, we combined the **revenue** of a movie
 3) Standardize the resulting feature
 4) Define the **success* metric as the average of the two standardized features
 Mathematically, this is translated as:
-success = $$Stand(revenue) + Stand(\log(numVotes)*averageRating) \over 2} $$
+success = $$Stand(revenue) + Stand(log(numVotes) * averageRating) \over 2} $$
 
 
 ### Features
