@@ -47,7 +47,7 @@ To define a consistent metric of success, we combined the **revenue** of a movie
 3) Standardize the resulting feature
 4) Define the **success* metric as the average of the two standardized features
 Mathematically, this is translated as:
-success = $$Stand(revenue) + Stand(log(numVotes) * averageRating) \over 2} $$
+success = $$Stand(revenue) + Stand{log(numVotes) * averageRating} \over 2} $$
 
 
 ### Features
