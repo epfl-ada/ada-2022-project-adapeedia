@@ -61,7 +61,7 @@ In order to analyse the distribution and be more aware of how the data looks lik
 * Camille: 
 * Hadi: pre-processing, metric formulation, ReadMe
 * Silvia:
-* Pau: 
+* Pau: Website (Data Story), some plotting, minor other code changes
 
 
 
