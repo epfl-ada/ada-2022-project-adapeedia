@@ -65,7 +65,7 @@ $${success = {Stand(revenue) + Stand( \log(numVotes) * averageRating ) \over 2}}
 In order to analyse the distribution and be more aware of how the data looks like, we plotted the features histrograms. We were able to understand that some metrics are normally distributed (as the average ratings) and some are highly skewed (as the number of votes) and therefore require a log transformation. Additionally, we plotted the top 20 languages, countries and genres and also some dynamic plots for the best genre and country per each year. Regression plots were also added to visualize the relation among features. Lastly, we displayed word clouds for each genre through a Latent Dirichlet Allocation after preprocessing the plot summaries (stemming, stopword removal, lemmatization).
 
 ### Organization
-* Camille: analysis about months, actors, producers, summary (LDA and is_kill), multiple linear regression. 
+* Camille: analysis about months, actors, producers, summary (LDA and is_kill), multiple linear regression, some plotting. 
 * Hadi: pre-processing, metric formulation, ReadMe
 * Silvia:
 * Pau: Website (Data Story), some plotting, minor other code changes
