@@ -4,7 +4,13 @@
 Please visit our amazing website [here](https://faraldospau.wixsite.com/adapeedia) to get the most out of the story!
 
 ## Data Sets and Running the notebook
-As the data exceeded Github's size limit constraints, we have uploaded a .zip of our data [here](https://drive.google.com/file/d/1JnCBDjjLFgyH-aWAudfuxixdQzEAczms/view?usp=sharing). After downloading this zip file and copying it to the directory containing this repository, you should uncompress it. Following this, you should have a `MovieSummaries` directory at the same level as `Project.ipynb`.
+As the data exceeded Github's size limit constraints, we have uploaded a .zip of our data [here](https://drive.google.com/file/d/1JnCBDjjLFgyH-aWAudfuxixdQzEAczms/view?usp=sharing). After downloading this zip file and copying it to the directory containing this repository, you should uncompress it. Following this, you should have a `MovieSummaries` directory at the same level as `Project.ipynb`. 
+
+## Additional Data Sets
+In addition to the CMU Movies data source, we also used the following:
+- For budgets: https://www.kaggle.com/datasets/stephanerappeneau/350-000-movies-from-themoviedborg
+- For a list of major production companies: https://en.wikipedia.org/wiki/Major_film_studios
+- For a list of top actors and actresses: https://m.imdb.com/list/ls058011111/ 
 
 ## What makes a movie successful?
 
